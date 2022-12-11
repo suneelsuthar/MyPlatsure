@@ -10,6 +10,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/about.css">
     <link rel="stylesheet" href="./style/index.css">
+    <script src="./js/index.js"></script>
 
     
 <!-- <script src="../js/about.js"></script> -->
@@ -21,7 +22,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light" style="padding: 20px;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: black;font-weight: 600;font-size: 30px;">MyPlatsure</a>
+            <a class="navbar-brand" href="./index.html" style="color: black;font-weight: 600;font-size: 30px;">
+            <img src="./Images/logo.png" alt="" style="height: 50px; ">
+            </a>
             <div style="display: flex;flex: 15"></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,6 +104,8 @@ In case you want to further help out with other families suffering from food all
 <div style="margin: 40px;">
 
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/8GxhiuN_bY0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h4>What's a Food Allergy -- and What's Not? | Body Stuff with Dr. Jen Gunter | TED</h4>
 </div>
 
 
@@ -195,8 +200,8 @@ In case you want to further help out with other families suffering from food all
             <div class="col">
                 <div style="font-weight: 600;margin-bottom: 5px;">Subscribe to MyPlatsure Newspaper Today</div>
                 <div class="input">
-                    <input type="email" placeholder="Enter Your Email Address" style="width:250px;outline:none;border:none;border-radius:5px;padding:4px">
-                    <button onclick="alert('Welcome')" style="width:80px;outline:none;border:none;border-radius:5px;padding:4px">
+                    <input id="subscribe" type="email" placeholder="Enter Your Email Address" style="width:250px;outline:none;border:none;border-radius:5px;padding:4px">
+                    <button onclick="subscribe()" style="width:80px;outline:none;border:none;border-radius:5px;padding:4px">
                         Confirm
                     </button>
                 </div>
@@ -221,5 +226,7 @@ In case you want to further help out with other families suffering from food all
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+
 
 </html>

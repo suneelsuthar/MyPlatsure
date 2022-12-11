@@ -17,8 +17,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light" style="padding: 20px;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: black;font-weight: 600;font-size: 30px;">MyPlatsure</a>
-            <div style="display: flex;flex: 15"></div>
+            <a class="navbar-brand" href="../index.html" style="color: black;font-weight: 600;font-size: 30px;">
+                <img src="../Images/logo.png" alt="" style="height: 50px; ">
+                </a>              <div style="display: flex;flex: 15"></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,42 +77,42 @@
 
                         <div class=" _food_gallery">
                             <div>Peanuts</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_2.png" alt="...">
                         </div>
                         <div class=" _food_gallery">
                             <div>Milk</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_3.png" alt="...">
                         </div>
 
                         <div class=" _food_gallery">
                             <div>Wheat</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_4.png" alt="...">
                         </div>
 
                         <div class=" _food_gallery">
                             <div>Eggs</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_5.png" alt="...">
                         </div>
 
 
                         <div class=" _food_gallery">
                             <div>Shellfish</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_6.png" alt="...">
                         </div>
 
                         <div class=" _food_gallery">
                             <div>Treenuts</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/treenuts.png" alt="...">
                         </div>
 
                         <div class=" _food_gallery">
                             <div>Fish (not Nemo)</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_7.png" alt="...">
                         </div>
 
                         <div class=" _food_gallery">
                             <div>Sesame</div>
-                            <img src="../Images/food_1.png" alt="...">
+                            <img src="../Images/food_8.png" alt="...">
                         </div>
                     </div>
                 </div>
@@ -276,8 +277,8 @@
             <div class="col">
                 <div style="font-weight: 600;margin-bottom: 5px;">Subscribe to MyPlatsure Newspaper Today</div>
                 <div class="input">
-                    <input type="email" placeholder="Enter Your Email Address" style="width:250px;outline:none;border:none;border-radius:5px;padding:4px">
-                    <button onclick="alert('Welcome')" style="width:80px;outline:none;border:none;border-radius:5px;padding:4px">
+                    <input id="subscribe" type="email" placeholder="Enter Your Email Address" style="width:250px;outline:none;border:none;border-radius:5px;padding:4px">
+                    <button onclick="subscribe()" style="width:80px;outline:none;border:none;border-radius:5px;padding:4px">
                         Confirm
                     </button>
                 </div>
@@ -301,5 +302,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+
 
 </html>
