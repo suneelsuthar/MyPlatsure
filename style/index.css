@@ -1,0 +1,37 @@
+._third_section_header{
+    color: white;
+    padding: 10px;
+}
+
+._foods_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+._foods_row > div{
+    position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 300px;
+ margin: 5px;
+}
+._foods_row > div > span{
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+._foods_row > img{
+    width: 100%;
+}
+
+
+.nav-item > .nav-link:hover{
+    text-decoration: underline;
+
+}

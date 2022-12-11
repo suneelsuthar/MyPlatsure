@@ -1,0 +1,271 @@
+.nav-item{
+    color: black !important;
+}
+
+._foodbanner{
+    width: 100%;
+    height: 400px;
+}
+
+._food_top_section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+._food_title{
+    font-weight: 800px !important;
+    font-size: 50px;
+}
+
+._heading_3{
+    font-weight: 800;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+
+._btn_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+._btn_1{
+    background-color: #D45157;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+
+
+
+._btn_2{
+    background-color: #014EA8;
+    width: 150px;
+    height: 70px;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+
+._btn_3{
+    background-color: #E37C40;
+    width: 150px;
+    height: 70px;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+._btn_row > div > button{
+    width: 100%;
+    background-color: inherit;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+._heading_prevent{
+    color: #D45157;
+    font-weight: 600;
+    width: 150px;
+    height: 70px;
+    padding: 5px;
+    margin:40px;
+    border: 2px solid #D45157;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     
+}
+
+._first_sesction{
+    background-color: #FFECEC;
+    padding: 40px;
+    color: #D45157;
+}
+
+._second_section{
+    padding: 40px;
+    color: #D45157;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+._third_section{
+    background-color: #FFECEC;
+    padding: 40px;
+}
+
+._third_section_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+._third_section_boxes > img{
+    height: 200px;
+    width: 200px;
+}
+
+._third_section_boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+._third_section_boxes > span{
+    color: #D45157;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.checklables_img{
+    height: 150px;
+    width: 150px;
+}
+
+._bulb_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.lightbulb{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+._fourth_section > div{
+    border-color: #014EA8;
+color: #014EA8;
+    
+}
+
+._fourth_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+._fifth_section{
+    background-color: #F5F5F5;
+    padding: 40px;
+    color: #014EA8;
+}
+
+._fifth_section_footer{
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #014EA8;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+._sixth_section{
+    background-color: #FFEADD;
+}
+
+._severe{
+    padding: 40px;
+    color: #E37C40 ;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+._epinephrine{
+    background-color: #E37C40;
+    padding: 10px;
+    padding-left: 40px;
+    color: white;
+    padding-right: 40px;
+    font-weight: 600;
+}
+
+._sixth_desc{
+    padding: 40px;
+    color: #E37C40;
+
+}
+
+._emergency_images{
+    /* width: 100%; */
+    height: 250px;
+    margin-top: 10px;
+}
+
+._sub_title{
+    max-width: 250px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+
+._sub_title_2{
+    width: 70%;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+
+}
+
+._notes_row{
+    flex-direction: row;
+    align-items: center;
+    font-style: italic;
+    background: #FFEADD;
+border: 2px solid #E37C40;
+display: flex;
+border-radius: 100px;
+max-width: 70%;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+._notes_row > img{
+    height: 80px;
+    width: 80px;
+}
+._notes_row > span{
+padding-left: 10px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.powered_by{
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.nav-item > .nav-link:hover{
+    text-decoration: underline;
+
+}

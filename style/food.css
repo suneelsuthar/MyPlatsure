@@ -1,0 +1,98 @@
+.nav-item{
+    color: black !important;
+}
+
+._foodbanner{
+    width: 100%;
+    height: 400px;
+}
+
+._food_top_section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+._food_title{
+    font-weight: 800px !important;
+    font-size: 50px;
+}
+
+._heading_3{
+    font-weight: 800;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+._food_gallery > img{
+    height: 145px;
+    width: 100%;
+    /* width: 280px !important; */
+}
+
+._food_gallery_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+._food_gallery{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    overflow:hidden;
+    border:1px solid;
+    width: 260px;
+}
+
+._food_gallery > div{
+    background-color: #E37C40;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+
+}
+._left_kid_pic{
+    height: 100%;
+    width: 100%;
+}
+
+._second_section{
+    background-color: #014EA8;
+    color: white;
+    padding: 6%;
+
+}
+
+._second_section > h3{
+    text-decoration: none;
+}
+._body_diagram{
+    width: 90%;
+    max-height: 600px;
+}
+.anaphylaxis{
+    font-weight: 500;
+}
+.anaphylaxis_box{
+    background-color: #E37C40;
+    color: white;
+    font-weight: 400;
+    padding: 10%;
+}
+.nav-item > .nav-link:hover{
+    text-decoration: underline;
+
+}

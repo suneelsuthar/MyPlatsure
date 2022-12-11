@@ -1,0 +1,54 @@
+._help_heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+._help_images{
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+}
+
+._foundation_1_images{
+    height: 50px;
+    width: 50px;
+}
+
+._help_box{
+    background-color: white;
+    width: 150px;
+}
+
+._foundation_footer{
+    color: white;
+    background-color: #E37C40;
+    min-height: 50px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._help_box{
+    min-height: 200px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+._foundation_1_images{
+    margin-top: 40px;
+    width: 100px;
+}
+
+.nav-item > .nav-link:hover{
+    text-decoration: underline;
+
+}
